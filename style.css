@@ -113,9 +113,8 @@ section .content {
   margin: 0 auto;
 }
 
-p {
+p, ul, h3 {
   font-family: Alegreya;
-  font-size: 18px;
 }
 
 @media (max-width: 992px), (max-height: 400px) {
