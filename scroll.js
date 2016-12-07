@@ -1,5 +1,5 @@
 function go(id) {
-  scrollTo(document.getElementById(id), 700)
+  scrollTo(document.getElementById(id), 280)
 }
 function scrollTo(element, duration) {
     var e = document.documentElement;
@@ -17,7 +17,7 @@ function scrollToC(element, from, to, duration) {
     if(typeof from === "object")from=from.offsetTop;
     if(typeof to === "object")to=to.offsetTop;
 
-    scrollToX(element, from, to, 0, 1/duration, 20, easeOutCuaic);
+    scrollToX(element, from, to, 0, 1/duration, 2, easeOutCuaic);
 }
 
 function scrollToX(element, xFrom, xTo, t01, speed, step, motion) {
