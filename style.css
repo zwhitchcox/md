@@ -115,6 +115,9 @@ section .content {
   body {
     padding-top: 70px;
   }
+  h3 {
+    padding-top: 70px;
+  }
   section {
     height: inherit;
     position: relative;
