@@ -68,14 +68,13 @@ ul.bad li:before {
 section {
   height: 100vh;
   position: relative;
-  transition: height 999999s;
 }
 
 section .content {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   width: 90%;
 }
 
@@ -109,14 +108,25 @@ section .content {
   transform: scale(1.6);
 }
 
+.navbar-toggle {
+  display: none;
+}
 
-@media (max-width: 992px) {
-   #networks img {
-     display: none;
-   }
-   .navbar-toggle {
-    display: none;
-   }
+@media (max-width: 992px), (max-height: 400px) {
+  body {
+    padding-top: 70px;
+  }
+  section {
+    height: inherit;
+    position: relative;
+  }
+
+  section .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
 }
 
 
