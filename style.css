@@ -78,6 +78,10 @@ section .content {
   width: 90%;
 }
 
+.navbar-brand {
+  font-size: 18px;
+}
+
 .intro {
   text-align: center;
 }
@@ -105,3 +109,5 @@ section .content {
     transform: scale(1.6);
   }
 }
+
+
