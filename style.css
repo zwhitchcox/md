@@ -111,10 +111,6 @@ section .content {
   transform: scale(1.6);
 }
 
-.navbar-toggle {
-  display: none;
-}
-
 @media (max-width: 992px), (max-height: 400px) {
   body {
     padding-top: 70px;
