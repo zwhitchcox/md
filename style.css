@@ -8,16 +8,13 @@
   text-align: center;
 }
 
-body {
-  font-size: 1.5em;
-}
-
 p {
   line-height: 2;
 }
 
-h2 {
-  padding-top:70px;
+h3 {
+  padding: 70px 15px 15px;
+  text-align: center;
 }
 
 ul.benefits li {
@@ -111,6 +108,16 @@ section .content {
   transform: scale(1.6);
 }
 
+#contact .well {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: Alegreya;
+  font-size: 18px;
+}
+
 @media (max-width: 992px), (max-height: 400px) {
   body {
     padding-top: 70px;
@@ -136,5 +143,4 @@ section .content {
     transform: translate(0, 0);
   }
 }
-
 
