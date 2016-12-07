@@ -68,6 +68,7 @@ ul.bad li:before {
 section {
   height: 100vh;
   position: relative
+  transition: height 999999999999s;
 }
 
 section .content {
