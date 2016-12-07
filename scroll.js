@@ -1,5 +1,7 @@
 function go(id) {
   scrollTo(document.getElementById(id), 280)
+  if (id === 'nav') return window.location.hash = ''
+  window.location.hash = id
 }
 function scrollTo(element, duration) {
     var e = document.documentElement;
